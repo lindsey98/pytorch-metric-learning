@@ -10,6 +10,7 @@ except ModuleNotFoundError:
 
 import numpy as np
 import torch
+import faiss
 
 
 def add_to_index_and_search(index, reference_embeddings, test_embeddings, k):
